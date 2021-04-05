@@ -17,6 +17,7 @@
 
       <h1>Tu Direccion MAC es:</h1>
 <div class="alert alert-primary" role="alert">
+  
 <?php
 $mac='UNKNOWN';
 foreach(explode("\n",str_replace(' ','',trim(`getmac`,"\n"))) as $i)
